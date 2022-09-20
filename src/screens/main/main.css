@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 0px 32px;
+  padding: 0px 24px;
 }
 
 .cep-container {
@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 48px 24px;
+  gap: 48px;
   max-width: var(--container-width);
   padding: 48px;
   border: 2px solid var(--secondary-color);
@@ -63,6 +63,13 @@
   border: 1px solid var(--bright-color);
 }
 
+.cep-warning {
+  position: absolute;
+  bottom: -24px;
+  color: var(--secondary-color);
+  font-size: 14px;
+}
+
 .cep-error {
   position: absolute;
   bottom: -24px;
@@ -89,6 +96,6 @@
 }
 
 .invalid-input:not(:disabled) {
+  background-color: #ff3e5f20;
   border: 1px solid var(--error-color);
-  color: var(--error-color);
 }
