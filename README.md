@@ -13,7 +13,7 @@ Utilizei apenas CSS vanilla para a estilização. O design, apesar de simples, �
 ## 💻 Features
 
 * Autocomplete 100% funcional
-* Limpeza automática do campo de CEP ao digitar algo fora do padrão
+* Formatação automática do campo de CEP ao digitar algo fora do padrão
 * Avisos para o usuário em caso de erro
 * Loader ao procurar por CEP
 
@@ -22,6 +22,7 @@ Utilizei apenas CSS vanilla para a estilização. O design, apesar de simples, �
 * Uso da biblioteca React
 * Consumo de API
 * Boas práticas de usabilidade
+* Deploy de projeto React no Github Pages
 
 ## 😀 Quer falar comigo?
 
