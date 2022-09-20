@@ -13,8 +13,8 @@ Utilizei apenas CSS vanilla para a estilização. O design, apesar de simples, �
 ## 💻 Features
 
 * Autocomplete 100% funcional
-* Formatação automática do campo de CEP ao digitar algo fora do padrão
-* Avisos para o usuário em caso de erro
+* Máscara aplicada ao campo de CEP
+* Avisos para o usuário em caso de algum problema
 * Loader ao procurar por CEP
 
 ## 💡 Aprendizado
