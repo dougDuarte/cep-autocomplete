@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 48px 24px;
+  max-width: var(--container-width);
   padding: 48px;
   border: 2px solid var(--secondary-color);
   border-radius: var(--border-radius-mid);
@@ -22,13 +23,23 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  width: calc(50% - 12px);
+  width: 100%;
 }
 
 .cep-input-container {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+.cep-city-state-container {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.cep-city-state-container .cep-input-label:last-child {
+  width: 40%;
 }
 
 .cep-input {
@@ -50,16 +61,6 @@
 
 .cep-input:focus {
   border: 1px solid var(--bright-color);
-}
-
-.cep-city-state-container {
-  display: flex;
-  gap: 24px;
-  width: calc(50% - 12px);
-}
-
-.cep-city-state-container :first-child {
-  width: 100%;
 }
 
 .cep-error {

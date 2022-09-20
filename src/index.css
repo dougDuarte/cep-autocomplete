@@ -18,9 +18,7 @@
   --border-radius-low: 8px;
   --border-radius-mid: 16px;
   --border-radius-high: 24px;
-  --container-width: 1200px;
-
-  scroll-behavior: smooth;
+  --container-width: 800px;
 }
 
 * {
