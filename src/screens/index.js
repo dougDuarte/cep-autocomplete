@@ -1,1 +1,0 @@
-export { MainScreen } from './main/main.screen'
